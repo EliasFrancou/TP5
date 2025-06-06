@@ -9,7 +9,7 @@ const Header = () => {
             </h1>
         </div>
         <div class="Header-nav">
-            <a href="#/about">
+            <a href="https://github.com/EliasFrancou/TP5">
                 Acerca de
             </a>
         </div>

@@ -6,27 +6,35 @@ body {
   background-color: #f4f4f4;
   color: #3c484e;
   font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  line-height: 1.8;
+  overflow-x: hidden;
 }
 
 .Header-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Distribuye a los extremos */
   align-items: center;
+  padding: 2rem 4rem;
+  background: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 4rem;
 }
 
-.Header a {
+.Header-main a {
   text-decoration: none;
   color: #15302C;
+  font-weight: bold;
 }
 
 .Main {
-  padding: 10px;
-  grid-template-columns: minmax(auto, 976px);
-  display: grid;
-  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 4rem;
+  box-sizing: border-box;
 }
-
-/* Elimina o modifica las clases Characters existentes y añade estas nuevas */
 
 .Launches {
   display: grid;
